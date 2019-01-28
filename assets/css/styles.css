@@ -1,0 +1,285 @@
+
+/* This is the universal styling used on all three pages */
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.main-container {
+    background-image: url(/assets/images/qbkls.png);
+    width: 100vw; 
+    height: 960px;
+    position: absolute;
+    overflow: scrolling;
+    bottom: 45px;
+    top: 114px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.teal {
+    background-color: #4aaaa5;
+}
+
+.teal-text {
+    color: #4aaaa5;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.reg-font-color {
+    color: #777777;
+}
+
+/*This is the styling for the header used on all pages */
+
+.main-header-name {
+    float: left;
+    padding: 26.5px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100px;
+    border-bottom: 5px solid #cccccc;
+    margin-bottom: 0;
+}
+
+.header-nav {
+    float: right;
+}
+.header-content {
+width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;  
+}
+
+.header-content {
+    height: 100px;     
+}
+
+.header-nav li {
+    float: left;
+    list-style-type: none;
+    border-right: 2px solid #f2f2f2;
+    padding: 10px;
+}
+
+a:link,
+a:visited,
+ a:active {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+/*This is the footer used for all pages */
+
+.footer {
+    position: fixed;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    bottom: 0;
+    overflow: hidden;   
+}
+
+.footer p {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 18px;
+}
+
+/*This is the styling for the main content area of all pages */
+
+.section {
+    position: absolute;
+    width: 960px;
+    left: 50%;
+    margin-left: -475px;
+    height: 600px;
+    background-color: #ffffff;
+    top: 30px;
+    bottom: 30px;
+    overflow: hidden;  
+}
+
+.container-head {
+    position: relative;
+    width: 95%;
+     border-bottom: 5px solid #cccccc; 
+     margin: 0 auto;
+     top: 20px;
+ }
+
+/*This is the styling specific to the About Me section */
+
+.about-me {
+    width: 95%;
+    position: relative;
+    top: 20px;
+    bottom: 30px;
+    margin: 0 auto;   
+}
+.about-me img {  
+    height: 200px;
+    width: 200 px;
+    float:left;
+    padding-right:20px;      
+}
+
+.about-me p {
+    font-size: 20px;
+}
+
+.about-me a:link,
+.about-me a:visited,
+.about-me a:active {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+.about-me a:hover {
+    color: #777777;
+}
+
+/*This is the styling specific to the Portfolio section */
+
+.portfolio {
+    width: 95%;
+    position: relative;
+    top: 20px;
+    bottom: 30px;
+    margin: 0 auto;
+ }
+
+#portfolio-height {
+    height: 1200px;
+}
+
+#portfolio-container {
+    height: 1500px;
+}
+
+.box {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 30px 30px 30px 0;
+    background-image: url(../images/binary.jpeg)
+}
+
+.box h2 {
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#box-1 {
+    background-image: url(../images/binary.jpeg);
+    float: left;
+}
+
+#box-2 {
+    background-image: url(../images/coding_blue.jpg);
+    float: left;
+
+}
+
+/* 
+#######################
+I attempted to stay as close to spec as I could in this first assignment 
+and to use positioning as taught in class. The one area where I struggled
+was in creating a section that would grow as it held more content. I  thought
+min-height would work but it did not, so I assigned specific values to height
+instead, which seems like a clunky solution.  
+
+How could I have done that better?
+
+I look forward to your review and thanks for taking the time to look at it.
+
+Tamar
+
+##########################
+*/
+
+
+
+
+
+
+#box-3 {
+    background-image: url(../images/coding_blue_white.jpg);
+    float: left;
+}
+
+#box-4 {
+    background-image: url(../images/coding_computer.jpg);
+    float: left;
+}
+
+#box-5 {
+    background-image: url(../images/coding_teal.jpg);
+    float: left;
+}
+
+.box a:link,
+.box a:visited,
+ .box a:active {
+    color: #ffffff;
+    
+}
+
+.box a:hover {
+    color: #666666;
+}
+
+/* This is the styling for the contact page */
+.contact {
+ width: 95%;
+ position: relative;
+ top: 40px;
+ bottom: 30px;
+ margin: 0 auto;
+}
+ 
+ .contact input {
+     width: 95%;
+     padding: 10px 35px 10px 10px;
+     margin-top: 20px;
+ }
+
+ .contact button {
+     width: 15%;
+     height: auto;
+     font-size: 15px;
+ }
+
+#message {
+    padding-bottom: 100px;
+}
+
+/*This is the clearfix to clear floats */
+   
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }   
+

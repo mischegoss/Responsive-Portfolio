@@ -1,4 +1,149 @@
+/*This is the color palette used */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.teal {
+    background-color: #4aaaa5;
+}
+
+.teal-text {
+    color: #4aaaa5;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.reg-font-color {
+    color: #777777;
+}
+
+.grey {
+    background-color:  #e0ebeb;
+}
+
+/*This is the container and body styling */
+
+body {
+    font-family: arial;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .section {
+      background-color: #edf7f7;
+      padding: 2em;
+  }
+  
+  
+  main,
+   {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .side-one {
+    padding: 20px;
+  }
+   
+  .side-two {
+    padding: 20px;
+    
+  }
+
+
+/* This is the styling for the header */
+
+header {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #dcefee;
+    border-bottom: 5px solid gray;
+    max-height: 20vh;
+    
+  }
+
+  .header-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hidden-header {
+    display: none;
+}
+
+.header-nav {
+    float: right;
+}
+
+.main-header-name {
+    float: left;
+    padding: 1em;
+    width: 30%;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.header-nav li {
+    float: left;
+    list-style-type: none;
+    border-right: 2px solid #f2f2f2;
+    padding: 1em;
+    font-size: 1em;
+}
+
+a:link,
+a:visited,
+ a:active {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+
+/* This is the Footer Styling */
+
+footer {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    border-top: 5px solid grey;
+    
+    font-size: 1em;
+    
+  }
+
+  /* This is the styling for the About Me page */
+
+  .about-me img {  
+    width: 30%;
+    height: auto;
+  float:left;
+    padding-right:2em;      
+}
+
+.about-me p {
+    font-size: 20px;
+    
+}
+
+/*This is the styling for the Portfolio page */
 
 .box {
     position: relative;
@@ -52,16 +197,7 @@
     color: #666666;
 }
 
-
-
-
-
-
-.grey {
-    background-color:  #e0ebeb;
-}
-
-
+/* This is the stying for the Contact page */
 .contact input {
     width: 85%;
     padding: 1em 3.5em 1em 2em;
@@ -76,156 +212,11 @@
 
 #message {
    padding-bottom: 10em;
-}body {
-  font-family: arial;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-.teal {
-    background-color: #4aaaa5;
-}
-
-.teal-text {
-    color: #4aaaa5;
-}
-
-.white-text {
-    color: #ffffff;
-}
-
-.reg-font-color {
-    color: #777777;
 }
 
 
-
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-
-@media (min-width: 820px) {
-  .container {
-    display: grid;
-    grid-template-columns: 20vh 1fr 20vh;
-    grid-template-rows: auto 1fr auto;
-
-  }
-
-  .hidden-header {
-    display: none;
-}
-}
-
-header {
-  grid-column: span 3;
-  padding: 30px;
-  text-align: center;
-  font-size: 1.4em;
-  background-color: #dcefee;
-  border-bottom: 5px solid gray;
-  max-height: 20vh;
-  
-}
-
-/* Trigger rebuild */
-/* This is a note */
-
-.header-content {
-    width: 80%;
-    margin: 0 auto;
-}
-
-main,
- {
-  flex: 1;
-  padding: 20px;
-}
-
-.side-one {
- 
-  padding: 20px;
-}
- 
-.side-two {
-  padding: 20px;
-  
-}
-
-footer {
-  grid-column: span 3;
-  padding: 30px;
-  text-align: center;
-  border-top: 5px solid grey;
-  
-  font-size: 1em;
-  
-}
-
-.header-nav {
-    float: right;
-}
-
-.main-header-name {
-    float: left;
-    padding: 1em;
-    width: 30%;
-    height: auto;
-    margin-bottom: 0;
-    margin-left: 0;
-}
-.section {
-    padding: 2em;
-}
-h1 {
-  margin-bottom: 1em;
-  font-size: 1.3em;
-  font-weight: bold;
-}
-
-h3 {
-    font-size: 1em;
-}
-
-.about-me img {  
-    width: 30%;
-    height: auto;
-  float:left;
-    padding-right:2em;      
-}
-
-.about-me p {
-    font-size: 20px;
-    
-}
-
-.header-nav li {
-    float: left;
-    list-style-type: none;
-    border-right: 2px solid #f2f2f2;
-    padding: 1em;
-    font-size: 1em;
-}
-
-a:link,
-a:visited,
- a:active {
-    color: #777777;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #4aaaa5;
-}
+/*Media Queries used for responsive design
+ *Note: I changed breakpoints from those provided to better work with the grid I used */
 
 @media only screen and (max-width: 1100px) {
     .container {
@@ -308,6 +299,14 @@ a:hover {
     }
     
     }
-  }
+  
 
-/* I adjusted the 980px, 768px, 640px media queries provided for better performance with the grid */
+
+@media (min-width: 820px) {
+    .container {
+      display: grid;
+      grid-template-columns: 20vh 1fr 20vh;
+      grid-template-rows: auto 1fr auto;
+  
+    }
+

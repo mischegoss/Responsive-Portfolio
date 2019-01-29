@@ -276,6 +276,16 @@ a:hover {
     .contact button {
         width: 60%;
     }
+    .main-header-name {
+        width: 95%;
+        margin: 0;
+        background-color: #dcefee;
+        color: #4aaaa5;
+        font-size: 1.5em;
+        align-self: center;
+        padding: 0;
+        
+    }
   }
 
   .section {
@@ -292,16 +302,7 @@ a:hover {
         font-size: .8em;
     }
     
-    .main-header-name {
-        width: 95%;
-        margin: 0;
-        background-color: #dcefee;
-        color: #4aaaa5;
-        font-size: 1.5em;
-        align-self: center;
-        padding: 0;
-        
-    }
+    
     .contact button {
         width: 90%;
     }

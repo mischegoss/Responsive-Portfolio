@@ -57,7 +57,9 @@
 
 
 
-
+.grey {
+    background-color:  #e0ebeb;
+}
 
 
 .contact input {
@@ -129,8 +131,8 @@ header {
   padding: 30px;
   text-align: center;
   font-size: 1.4em;
-  background-color: #369;
-  color: white;
+  background-color: #dcefee;
+  border-bottom: 5px solid gray;
   max-height: 20vh;
   
 }
@@ -149,21 +151,21 @@ main,
 }
 
 .side-one {
-  background-color: #f90;
+ 
   padding: 20px;
 }
  
 .side-two {
   padding: 20px;
-  background-color: #936;
+  
 }
 
 footer {
   grid-column: span 3;
   padding: 30px;
   text-align: center;
-  color: white;
-  background-color: pink;
+  border-top: 5px solid grey;
+  
   font-size: 1em;
   
 }
@@ -255,6 +257,10 @@ a:hover {
     .contact button {
         width: 50%;
     }
+
+    .side-one {
+        background-color: #b8e0de;
+    }
   }
 
   @media only screen and (max-width: 640px) {
@@ -272,7 +278,7 @@ a:hover {
   }
 
   .section {
-      background-color: grey;
+      background-color: #edf7f7;
   }
 
   @media only screen and (max-width: 440px) {
@@ -288,7 +294,11 @@ a:hover {
     .main-header-name {
         width: 95%;
         margin: 0;
-        background-color: #369;
+        background-color: #dcefee;
+        color: #4aaaa5;
+        font-size: 1.5em;
+        align-self: center;
+        padding: 0;
         
     }
     .contact button {

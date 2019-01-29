@@ -1,4 +1,29 @@
-body {
+
+
+
+
+
+
+
+
+
+
+
+.contact input {
+    width: 85%;
+    padding: 1em 3.5em 1em 2em;
+    margin-top: 2em;
+}
+
+.contact button {
+    width: 15%;
+    height: auto;
+    font-size: 1.5em;
+}
+
+#message {
+   padding-bottom: 10em;
+}body {
   font-family: arial;
 }
 
@@ -153,6 +178,9 @@ a:hover {
     .header-content {
       width: 95%;
     }
+    .contact button {
+        width: 30%;
+    }
   }
 
   @media only screen and (max-width: 820px) {
@@ -162,6 +190,10 @@ a:hover {
     }
     .hidden-header {
         display: block;
+    }
+
+    .contact button {
+        width: 50%;
     }
   }
 
@@ -173,6 +205,14 @@ a:hover {
         width: 95%;
         margin-bottom: 1em;
     }
+
+    .contact button {
+        width: 60%;
+    }
+  }
+
+  .section {
+      background-color: grey;
   }
 
   @media only screen and (max-width: 440px) {
@@ -190,6 +230,9 @@ a:hover {
         margin: 0;
         background-color: #369;
         
+    }
+    .contact button {
+        width: 90%;
     }
     
     }

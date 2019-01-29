@@ -1,5 +1,56 @@
 
 
+.box {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 30px 30px 30px 0;
+    background-image: url(../images/binary.jpeg)
+}
+
+.box h2 {
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#box-1 {
+    background-image: url(../images/binary.jpeg);
+    float: left;
+}
+
+#box-2 {
+    background-image: url(../images/coding_blue.jpg);
+    float: left;
+
+}
+
+#box-3 {
+    background-image: url(../images/coding_blue_white.jpg);
+    float: left;
+}
+
+#box-4 {
+    background-image: url(../images/coding_computer.jpg);
+    float: left;
+}
+
+#box-5 {
+    background-image: url(../images/coding_teal.jpg);
+    float: left;
+}
+
+.box a:link,
+.box a:visited,
+ .box a:active {
+    color: #ffffff;
+    
+}
+
+.box a:hover {
+    color: #666666;
+}
 
 
 
